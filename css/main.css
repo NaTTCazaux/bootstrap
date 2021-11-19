@@ -1,0 +1,490 @@
+body {
+    /* font-family: 'Rubik', sans-serif; */
+    background-color: #efecdf45;
+    margin: 0;
+}
+
+.body-menu {
+    background-color: white;
+}
+
+/* HEADER */
+
+.boton {
+    background-color: #204a4a!important;
+    border: solid #204a4a;
+}
+
+
+.pagina-principal{
+    background-image: url("../public/header-cambio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 65vw;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* nav {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+} */
+
+
+.logo-principal {
+    display: flex;
+    float: left;
+}
+
+#logo {
+    width: 87px;
+    margin-left: 33px;
+    margin-top: 5px;
+    }
+
+
+/* .menu-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 80vw;
+    margin-top: 40px;
+}
+
+.menu-container ul li {
+    align-self: center;
+    margin-right: 80px;
+}
+
+.menu-container ul li a {
+    font-family: 'Krona One', sans-serif ;
+    text-decoration: none;
+    color: #204a4a;
+    font-size: 17px;
+
+    transition: 0.5s ease-in-out;
+} */
+
+/* HOVER */
+/* ul li a:hover {
+    text-decoration: underline;
+} */
+
+h1 {
+    font-family: 'Krona One', sans-serif ;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    color: #204a4a;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 700px;
+}
+
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-bienvenida{
+    margin-left: 675px
+
+}
+
+/* MAIN */
+/* GRIDS*/
+
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section>div {
+    width: 50%;
+    padding: 50px;
+}
+
+
+/* NOSOTROS*/
+
+.img-nosotros {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+/* EVENTOS*/
+
+.img-eventos {
+    width: 400px;
+}
+
+.eventos-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: space-around;
+    justify-content: end;
+    grid-gap: 20px;
+}
+
+
+/* PRODUCTOS*/
+
+/* .productos-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: end;
+    grid-gap: 20px;
+} */
+
+.img-productos {
+    width: 221px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.textos- h2 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    color: #204a4a;
+}
+
+.textos- p {
+    font-family:'Rubik', sans-serif ;
+    font-size: 20px;
+    max-width: 65%;
+  
+}
+
+
+/* CONTACTO */
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.iconos-contacto {
+    width: 60px;
+}
+
+.contacto-contacto {
+    width: 20%;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+/* footer {
+
+    display: grid;
+    grid-template-areas:
+        "logo-footer nosotros-footer productos-footer redes-footer"
+        "logo-footer eventos-footer menu-footer redes-footer";
+    margin-top: 50px;
+
+}
+
+.logo-footer {
+    grid-area: logo-footer;
+}
+
+.nosotros-footer {
+    grid-area: nosotros-footer;
+}
+
+.productos-footer {
+    grid-area: productos-footer;
+}
+
+.redes-footer {
+    grid-area: redes-footer;
+}
+
+.eventos-footer {
+    grid-area: eventos-footer;
+}
+
+.menu-footer {
+    grid-area: menu-footer;
+} */
+
+footer div {
+    background-color: white;
+}
+
+.iconos-redes {
+    width: 26px;
+}
+
+footer a {
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #204a4a;
+    
+}
+
+footer div p {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    
+}
+
+.h3-contacto {
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #204a4a;
+    
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #204a4a;
+    
+}
+
+.redes-footer a {
+    text-decoration: none;
+}
+
+/* PAGINA MENU */
+
+
+
+/* .header-menu{
+    background-color:  #efecdf45;
+    background-image: url("../public/header-menu.jpg");
+    background-repeat: no-repeat;
+    background-size: 55vw;
+    height: 40vw;
+} */
+
+.contenido{
+    margin-top: 50px;
+}
+
+.section-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.section-menu h2{
+    font-family: 'Krona One', sans-serif;
+    color: #204a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-menu h4{
+    font-family: 'Krona One', sans-serif;
+    color: #204a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lista-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lista-menu ul li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 60px;
+
+    align-self: center;
+
+}
+
+
+.imagen-menu {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.imagen-menu-1 {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.imagen-menu-2 {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.imagen-menu-3 {
+    width: 700px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* PAGINA EVENTOS */
+
+.nav-todos{
+    background-color: transparent !important;
+}
+
+.navbar-expand-md .navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+.fuente{
+    font-family: 'Krona One', sans-serif !important;
+    text-decoration: none !important;
+    color: #204a4a !important;
+    font-size: 15px !important;
+    align-self: center !important;
+    margin-right: 90px !important;
+}
+
+.header-eventos{
+    margin-top: 30px;
+}
+
+.dia-patrimonio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 200px;
+    padding: 40px;
+}
+
+.halloween {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.halloween-2 {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-halloween {
+    width: 360px;
+    border-radius: 10px;
+}
+
+/* .eventos-2 {
+    display: flex;
+} */
+
+.imagen-eventos {
+    width: 360px;
+    border-radius: 10px;
+}
+
+.video-hallowen {
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+/* ================== */
+/* media-queries */
+
+
+/* @media (max-width:576px) {
+
+    body {background-color: tomato;}
+    
+        body h1 {
+                font-family: 'Krona One', sans-serif ;
+                font-weight: bold;
+                display: flex;
+                text-align: center;
+                font-size: 15px;
+                color: #204a4a;
+                flex-direction: column;
+                margin-top: 0;
+                margin-left: 10px;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    
+        }
+        .eventos-1 {
+            display: grid;
+            grid-template-columns: auto;
+            align-items: space-around;
+            justify-content: end;
+            grid-gap: 5px;
+        
+        .boton-bienvenida{
+            margin-left: 10px;
+            font-size: 10px !important;
+            height: 15%;
+            max-width: 15%;
+        } 
+    
+        .card{
+            max-width: 40%;
+            height: auto;
+        }
+     
+        }
+
+ @media (max-width:1280px) {
+
+    body{background-color: turquoise;}
+
+    body h1 {
+
+            font-family: 'Krona One', sans-serif ;
+            font-weight: bold;
+            display: flex;
+            text-align: center;
+            font-size: 10px;
+            color: #204a4a;
+            flex-direction: column;
+            margin-top: 0;
+            margin-left: 10px;
+    }
+
+    .boton-bienvenida{
+        margin-left: 10px;
+    }
+}  */
